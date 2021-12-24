@@ -32,6 +32,42 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+      );
+      fbq('init', '656229728818213');
+      fbq('track', 'PageView');
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=656229728818213&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
   </head>
 
   <body>
@@ -429,7 +465,10 @@
 
                   <!-- <span>brandingn</span> -->
                 </div>
-                <img class="img-fluid" src="assets/img/main-page/kushion.tv_ (12).png" />
+                <img
+                  class="img-fluid"
+                  src="assets/img/main-page/kushion.tv_ (12).png"
+                />
               </a>
             </div>
             <div class="item code col-sm-6 col-md-4 col-lg-4 mb-4">
@@ -567,7 +606,7 @@
       <!-- End  Works Section -->
 
       <!-- ======= Clients Section ======= -->
-      <section class="section" >
+      <section class="section">
         <div class="container">
           <div class="row justify-content-center text-center mb-4">
             <div class="col-5">
